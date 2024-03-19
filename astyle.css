@@ -1,0 +1,57 @@
+html,
+body {
+  /* màu chữ home */
+  color: brown;
+  /* kiểu chữ */
+  font-style: normal;
+  /* fon chu */
+  font-family: "Times New Roman", Times, serif;
+  /*chuyen hoa chu  */
+  text-transform: capitalize;
+  /* căn giữa */
+  text-align: center;
+  /* cỡ chứ */
+  font: size 18px;
+  /* định dạnh khoản cách các vòng */
+  line-height: 1.2;
+}
+/* opacity:..... độ trong suốt */
+/* display: none (ẩn phần tử khỏi giao diện) */
+/* visibility: hidden; ( ẩn) */
+/* visibility: visible (hien) */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+div img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul,
+ol,
+li {
+  text-align: unset;
+}
+h1 {
+  font-style: oblique;
+}
